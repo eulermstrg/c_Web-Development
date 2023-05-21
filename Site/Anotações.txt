@@ -1,0 +1,21 @@
+    
+    Semântica do html
+        Tipos de tílulo (h1,h2,h3,h4,h5,h6)
+
+        Tags expecíficas:  
+
+            <Strong></Strong>
+                É usada para colocar o texto em negrito com a inclusão da semãntica de importância.
+            <b></b>
+                É usada para destacar o texto em negrito de forma simples.
+            <mark></mark>
+                É usada para destacar o texto com marcação amarela 
+            <em></em>
+                É usada para destacar de forma itálica um determinado texto
+            <a></a> É usada para criar ancoragem de links na página
+                é utilizada juntamente com um atributo chamado "href" para vincular a uma determinada página
+                    ex:
+                        <h2> <a href="index.html"> Voltar para início</a> </h2> <br>
+                        
+
+    Como funciona os motores de busca para privilegirar o seu site
