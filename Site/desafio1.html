@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo</title>
+    <style>
+        #mapa {
+          display: none;
+        }
+    </style>
+    <script>
+
+        /*Nesse código, adicionamos a variável mapaVisivel para controlar o estado atual do mapa. A função exibirMapa() verifica o valor dessa variável: se o mapa estiver visível, ele será ocultado e o valor de mapaVisivel será definido como false; caso contrário, o mapa será exibido e mapaVisivel será definido como true.
+        Dessa forma, ao clicar no link, o mapa será alternado entre visível e oculto.*/
+        var mapaVisivel = false;
+
+        function exibirMapa() {
+            var mapa = document.getElementById("mapa");
+
+                if (mapaVisivel) {
+                    mapa.style.display = "none";
+                    mapaVisivel = false;
+                } else {
+                    mapa.style.display = "block";
+                    mapaVisivel = true;
+                }
+        }
+
+    </script>
+</head>
+<body>
+
+    <div id="header">
+        <h1>Igor Oliveira</h1>
+        <br>
+
+        <b>Cidade:   </b> <a href="#mapa" onclick="exibirMapa();"> Rio de Janeiro </a> <br>
+        <div id="mapa">
+
+            <figure>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235199.37769430975!2d-43.610789977858204!3d-22.913729487941833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bde559108a05b%3A0x50dc426c672fd24e!2sRio%20de%20Janeiro%2C%20RJ!5e0!3m2!1spt-BR!2sbr!4v1684779774365!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <figcaption>Cidade do Rio de Janeiro - RJ - Brasil</figcaption>
+
+            </figure>
+
+        </div>
+
+
+        <b>Telefone: </b> <a href="tel:+552199999999">(21)99999999 </a> <br>
+        <b>Email:    </b> <a href="mailto:eulermstrg@gmail.com"> eulermstrg@gmail.com </a> <br>
+
+        <hr>
+    </div>
+
+
+        <h1>Experiências</h1>
+
+        <div>
+
+            <img alt="Programador BR" src="./imagens/icon-progbr.svg" align="left"> <br>
+            <p><h4>Produtor de conteúdo </h4></p>
+            
+        </div>
+   
+
+
+
+
+</body>
+</html>

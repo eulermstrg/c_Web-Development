@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Exemplo de uso da tag iframe</title>
+  <style>
+    #mapa {
+      display: none;
+    }
+  </style>
+  <script>
+    function exibirMapa() {
+      var mapa = document.getElementById("mapa");
+      mapa.style.display = "block";
+    }
+  </script>
+</head>
+<body>
+  <h1>Exemplo de uso da tag iframe</h1>
+  
+  <a href="#" onclick="exibirMapa();">Abrir Mapa</a>
+  
+  <div id="mapa">
+
+    <figure></figure>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23589.20316047777!2d-122.084399!3d37.422037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808f17947d57%3A0xe6725b84f6fbb1a!2sGolden%20Gate%20Bridge!5e0!3m2!1sen!2sus!4v1621717091259!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </figure>
+    
+  </div>
+
+</body>
+</html>
