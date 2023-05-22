@@ -16,6 +16,16 @@
                 é utilizada juntamente com um atributo chamado "href" para vincular a uma determinada página
                     ex:
                         <h2> <a href="index.html"> Voltar para início</a> </h2> <br>
-                        
+            <img>
+                É uma tag para carregamento de imagens
+                    Pode ser usada para acionar uma imagem dentro da aplicação, usando o caminho da pasta onde se encontra a imagem. 
+                    Ou fora, usando o endereço web da imagem.
+                    É usanda com uma tag dentro da tag <img> , cahamda src="" que indica o caminho do recurso que está sendo chamado na tag de <img>
+                        Muito importante usar sempre a tag <alt=""> dentro da tag <img> para anexar a imagem um texo referencial que é utilizado pelos motores de busca.
+                        ex:
+                            <img alt="Forsaken shild" src="imagens/793-7930385_wow-png-undead-forsaken-crest-wow-transparent-png.png" width="300" height="300">
+                                Pode ser usada com delimitantes de altura e largura, mas faz parte das boas práticas de programação utilizar essas edições em partes gráficas usando CSS e/ou frameworks especializados, visando modulação e aproveitamento de código.
+
+
 
     Como funciona os motores de busca para privilegirar o seu site
