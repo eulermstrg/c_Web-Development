@@ -25,7 +25,11 @@
                         ex:
                             <img alt="Forsaken shild" src="imagens/793-7930385_wow-png-undead-forsaken-crest-wow-transparent-png.png" width="300" height="300">
                                 Pode ser usada com delimitantes de altura e largura, mas faz parte das boas práticas de programação utilizar essas edições em partes gráficas usando CSS e/ou frameworks especializados, visando modulação e aproveitamento de código.
-
+            <style></style>
+                Tag usada dentro do head como tag de conjunto geral de configurações de estilo
+                mas pode ser usado dentro de alguma tag de texto, como div ou parágrafos para determinar o estilo daquele módulo específico
+                    ex:
+                        <p style="color: red"> lorem ipsum </p>
 
 
     Como funciona os motores de busca para privilegirar o seu site
